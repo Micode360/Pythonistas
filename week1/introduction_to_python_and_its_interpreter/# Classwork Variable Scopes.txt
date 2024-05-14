@@ -1,0 +1,26 @@
+# Classwork: Variable Scopes
+
+# 1. Create a variable 'global_var' with a value of 10. Print its value.
+
+
+# 2. Define a function 'example_function' which does the following:
+#    a. Creates a variable 'local_var' with a value of 20.
+#    b. Prints the value of 'local_var'.
+#    c. Prints the value of 'global_var' from within the function.
+
+
+# 3. Call 'example_function'.
+
+
+# 4. Try printing 'local_var' from outside the function. What happens? Explain why.
+
+
+# 5. Create a variable 'another_global_var' inside a block (also scope) (e.g., function or if statement) in a new function
+#    Try accessing 'another_global_var' from outside the block. What happens? Explain why.
+
+
+# 6. Create a constant 'PI' with a value of 3.14. Try changing its value. What happens? Explain why.
+
+# Bonus: Try to print 'global_var' and 'another_global_var' before they're declared. What happens? Explain why.
+
+# Your task is to complete the code and run it to observe the output.
