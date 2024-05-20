@@ -1,0 +1,91 @@
+Loops in Python are used to execute a block of code repeatedly as long as a condition is true. 
+
+There are mainly two types of loops in Python: for loops and while loops. 
+
+
+
+FOR LOOP
+
+
+
+A for loop is used for iterating over a sequence (such as a list, tuple, string, or range). Here's the basic syntax:
+
+```
+for item in sequence:
+    # code block to be executed
+```
+
+* item is a variable that takes the value of the next element in the sequence for each iteration.
+* sequence could be a list, tuple, string, or any iterable object.
+
+
+```
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+
+
+
+while Loop:
+
+	A while loop is used to execute a block of code repeatedly as long as a specified condition is true. The loop continues until the condition becomes false. Here's the basic syntax:
+
+
+```
+while condition is not true:
+    keep on running
+```
+
+
+```
+num = 1
+while num <= 5:
+    print(num)
+    num += 1
+```
+
+
+
+Loop Control Statements:
+Python also provides loop control statements like break, continue, and else:
+
+
+break: Terminates the loop entirely when encountered.
+
+continue: Skips the rest of the code inside the loop for the current iteration and continues with the next iteration.
+
+else: Executes when the loop is finished iterating over the entire sequence (not executed if the loop is terminated by a break statement).
+
+
+
+using (break)
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    if fruit == "banana":
+        break
+    print(fruit)
+
+
+
+
+using (continue)
+
+num = 0
+while num < 5:
+    num += 1
+    if num == 3:
+        continue
+    print(num)
+
+
+
+
+using (else)
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+else:
+    print("No more fruits left.")

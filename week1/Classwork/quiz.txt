@@ -1,0 +1,35 @@
+Algorithm: Simple Quiz Game
+
+1. Start
+
+2. Define a function display_question(question, options):
+    2.1. Print the question.
+    2.2. Iterate through each option:
+        2.2.1. Print the option with its corresponding index.
+    2.3. Prompt the user to enter their answer (1/2/3/4).
+    2.4. Return the user's answer as an integer.
+
+3. Define a function check_answer(answer, user_answer):
+    3.1. Check if the answer matches the user's answer.
+    3.2. If they match, return True; otherwise, return False.
+
+4. Initialize a list called "questions" containing dictionaries of questions, options, and answers.
+
+5. Initialize a variable called "score" to track the user's score, set it to 0.
+
+6. Iterate through each question in the "questions" list:
+    6.1. Print the question number.
+    6.2. Call the display_question() function to present the question and options to the user.
+    6.3. Get the user's answer.
+    6.4. Check if the user's answer is correct using the check_answer() function.
+    6.5. If the answer is correct:
+        6.5.1. Print "Correct!".
+        6.5.2. Increment the score by 1.
+    6.6. If the answer is incorrect:
+        6.6.1. Print "Incorrect!".
+
+7. Print "Quiz complete!".
+
+8. Print the user's score out of the total number of questions.
+
+9. End

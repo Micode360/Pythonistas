@@ -1,0 +1,28 @@
+Algorithm for the validate_credit_card function:
+
+# The function takes a card_number as input.
+
+Check Length:
+
+If the length of the card_number is not equal to 16 digits:
+Return False, indicating that the card number is invalid.
+
+
+Check Digits:
+
+If any character in the card_number is not a digit:
+Return False, indicating that the card number is invalid.
+Check First Digit:
+
+
+
+If the first digit of the card_number is '0':
+Return False, indicating that the card number is invalid.
+Return True:
+
+
+
+If all the above checks pass:
+Return True, indicating that the card number is valid.
+
+you can use if statement for more then one time

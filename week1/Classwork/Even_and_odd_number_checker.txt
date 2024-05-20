@@ -1,0 +1,11 @@
+Algorithm: Even/Odd Number Checker
+
+1. Start
+
+2. Ask the user to give you a whole number and remember it.
+
+3. Check if the number the user gave is divisible by 2:
+    3.1. If it is, print "It's an even number!".
+    3.2. If it's not, print "It's an odd number!".
+
+4. End
